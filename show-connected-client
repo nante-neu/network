@@ -1,1 +1,8 @@
+** Scan network connected to the switch
 sudo nmap -sn 192.168.100.0/24
+
+
+
+
+** Show .local
+avahi-resolve -a 192.168.100.201

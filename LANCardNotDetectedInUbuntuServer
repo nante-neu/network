@@ -1,0 +1,9 @@
+* type ifconfig
+enp3s0 - 
+* If the NIC is detected but down, you can bring it up manually:
+sudo ip link set enp1s0 up
+
+* Use this command to request an IP from the DHCP server:
+sudo dhclient enp1s0
+
+
